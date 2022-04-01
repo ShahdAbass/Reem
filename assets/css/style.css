@@ -1601,7 +1601,10 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #5b5c5c;
+  color: #fff;
+}
+#footer .footer-newsletter p{
+  color:#5b5c5c;
 }
 #footer .footer-newsletter form {
   margin-top: 30px;
@@ -1647,7 +1650,7 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  color: #5b5c5c;
+  color: #fff;
   font-weight: 600;
 }
 #footer .footer-top .footer-info p {
@@ -1655,7 +1658,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Changa", sans-serif;
-  color: #fff;
+  color: #5b5c5c;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
@@ -1679,7 +1682,7 @@ section {
 #footer .footer-top h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #5b5c5c;
+  color: #fff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1706,7 +1709,7 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: #5b5c5c;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1719,6 +1722,7 @@ section {
 }
 #footer .footer-top .footer-contact p {
   line-height: 26px;
+  color: #5b5c5c;
 }
 #footer .copyright {
   text-align: center;
