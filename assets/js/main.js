@@ -230,7 +230,27 @@
 
 
 
-let arabic = document.getElementById("arabic");
+
+function loadIng(){
+  var Ing = document.getElementById("langselector").value;
+  var cnt = document.getElementById("eng");
+  switch(Ing){
+    case "en":
+      cnt.src = "index.html";
+      break;
+    case "ar":
+      cnt.src = "Arabic/index.html";
+      break;
+  }
+
+}
+
+
+
+
+
+
+/*let arabic = document.getElementById("arabic");
 let english = document.getElementById("english");
 
 arabic.onclick = () =>{
@@ -247,8 +267,9 @@ english.onclick = () =>{
 function setLanugaue(getLanuage){
     if(getLanuage === "arabic"){
 
+
     }else if(getLanuage === "english"){
 
     }
 
-}
+}*/
