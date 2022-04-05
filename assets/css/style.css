@@ -1718,3 +1718,20 @@ i.fa.fa-envelope {
   border-color: #fbab1f;
   color: #151515;
 }
+
+
+.hero-section .wave {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  bottom: -150px;
+}
+@media screen and (max-width: 992px) {
+  .hero-section .wave {
+    bottom: -180px;
+  }
+}
+.hero-section .wave svg {
+  width: 100%;
+}
