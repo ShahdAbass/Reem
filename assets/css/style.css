@@ -642,11 +642,11 @@ section {
   font-size: 16px;
 }
 .features .icon-box h3 a {
-  color: #493c3e;
+  color: #5b5c5c;
   transition: ease-in-out 0.3s;
 }
 .features .icon-box:hover a {
-  color: #e43c5c;
+  color: #fbab1f;
 }
 
 /*--------------------------------------------------------------
