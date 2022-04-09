@@ -583,11 +583,11 @@ section {
   transition: 0.5s;
 }
 .why-us .icon-box .icon i {
-  color: #5b5c5c;
+  color:  #fbab1f;
   font-size: 32px;
 }
 .why-us .icon-box:hover .icon {
-  background: #fbab1f;
+  background: #c4c3c3;
 }
 .why-us .icon-box:hover .icon i {
   color: #fff;
