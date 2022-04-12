@@ -1,4 +1,5 @@
 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -432,6 +433,100 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 /*--------------------------------------------------------------
+# ERP
+--------------------------------------------------------------*/
+.erp .row {
+  padding-top: 40px;
+}
+.erp .box {
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  background: #fff;
+  text-align: center;
+}
+.erp h3 {
+  font-weight: 300;
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #fbab1f;
+}
+.erp h4 {
+  font-size: 46px;
+  color: #fbab1f;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+}
+
+.erp ul {
+  padding: 0;
+  list-style: none;
+  color: #999;
+  text-align: left;
+  line-height: 20px;
+}
+.erp ul li {
+  padding-bottom: 12px;
+}
+.erp ul i {
+  color: #fbab1f;
+  font-size: 18px;
+  padding-right: 4px;
+}
+.erp ul .na {
+  color: #ccc;
+}
+.erp ul .na i {
+  color: #ccc;
+}
+.erp ul .na span {
+  text-decoration: line-through;
+}
+.erp .get-started-btn {
+  background: #c4c3c3;
+  display: inline-block;
+  padding: 6px 30px;
+  border-radius: 20px;
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s;
+}
+.erp .get-started-btn:hover {
+  background: #fbab1f;
+}
+.erp .featured {
+  z-index: 10;
+  margin: -30px -5px 0 -5px;
+}
+.erp .featured .get-started-btn {
+  background: #fbab1f;
+}
+
+@media (max-width: 992px) {
+  .erp .box {
+    max-width: 60%;
+    margin: 0 auto 30px auto;
+  }
+}
+@media (max-width: 767px) {
+  .erp .box {
+    max-width: 80%;
+    margin: 0 auto 30px auto;
+  }
+}
+@media (max-width: 420px) {
+  .erp .box {
+    max-width: 100%;
+    margin: 0 auto 30px auto;
+  }
+}
+
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -700,6 +795,8 @@ section {
     opacity: 0;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # About
@@ -1319,6 +1416,7 @@ section {
 .blog .sidebar .sidebar-item {
   margin-bottom: 30px;
 }
+
 
 
 /*--------------------------------------------------------------
