@@ -1656,7 +1656,7 @@ i.fa.fa-envelope {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/istockphoto-1149365028-612x612.png") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/istockphoto-1149365028-612x612.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
