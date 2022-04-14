@@ -390,3 +390,22 @@ function myFuncation6() {
 
   }
 }
+
+
+function myFuncation7() {
+  var dots = document.getElementById("dots7");
+  var moreText = document.getElementById("more7");
+  var btnText = document.getElementById("myBtn7");
+
+
+  if (dots.style.display === "none"){
+    dots.style.display  = "inline";
+    btnText.innerHTML = "أقرا المزيد";
+    moreText.style.display = "none"
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "أقرا المزيد";
+    moreText.style.display = "inline";
+
+  }
+}

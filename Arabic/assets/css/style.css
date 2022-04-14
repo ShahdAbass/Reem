@@ -621,6 +621,7 @@ section {
   text-align: center;
   border: 1px solid #ebebeb;
   padding: 40px 20px;
+  width: 400px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -655,14 +656,19 @@ section {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
-#more,#more1,#more2,#more3,#more4,#more5,#more6{
+#more,#more1,#more2,#more3,#more4,#more5,#more6,#more7{
   display: none;
 }
 button{
-  background-color: #c4c3c3;
-   color: #fff; 
-   border:4px solid #c4c3c3;
-   margin-top: 10px;
+  -moz-text-align-last: left;
+  text-align-last: left;
+  border:4px solid #c4c3c3;
+  display: inline-block;
+  background: #c4c4c3;
+  color: #fff;
+  padding: 6px 20px;
+  transition: 0.3s;
+  font-size: 14px;
 }
 button:hover{
   background-color: #fbab1f;
@@ -680,7 +686,6 @@ button:hover{
   margin-top: 30px;
 }
 .why-us .icon-box .icon {
-  float: left;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -689,6 +694,8 @@ button:hover{
   background: #f3f8fa;
   border-radius: 50px;
   transition: 0.5s;
+  float: right;
+  margin-left:40px
 }
 .why-us .icon-box .icon i {
   color:  #fbab1f;
@@ -809,6 +816,17 @@ button:hover{
   }
 }
 
+@media (max-width: 991px) {
+  
+  .why-us .icon-box p{
+    display: flex;
+ 
+  
+    
+  }
+  
+  
+}
 
 
 /*--------------------------------------------------------------
