@@ -821,11 +821,7 @@ button:hover{
   .why-us .icon-box p{
     display: flex;
  
-  
-    
-  }
-  
-  
+  } 
 }
 
 
@@ -885,7 +881,7 @@ button:hover{
   text-align: center;
 }
 .testimonials .testimonial-item .testimonial-img {
-  width: 100px;
+  width: 150px;
   border: 2px solid #fff;
   margin: 0 auto;
 }
@@ -905,6 +901,15 @@ button:hover{
   background-color: #c4c4c3;
 }
 
+@media (max-width: 991px) {
+  
+  .testimonials .testimonial-item .testimonial-img{
+    width: 100px;
+  border: 2px solid #fff;
+  margin: 0 auto;
+ 
+  } 
+}
 /*--------------------------------------------------------------
 # Service Details
 --------------------------------------------------------------*/
